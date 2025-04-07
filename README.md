@@ -1,6 +1,6 @@
 # Automatic-Speech-Recoginization-for-Single-Accent
 
-# demo
+# Demo
 Run the below command in this directory to print the output. <br />
  ```python test.py```
  
@@ -8,6 +8,9 @@ In ```test.py``` directly change the audio file which exist in test audio folder
 
 For model file ping me [email](valliaravind@gmail.com)
 
+# Dataset:
+ This is a public domain speech dataset consisting of 13,100 short audio clips of a single speaker reading passages from 7 non-fiction books. A transcription is provided for  each clip. Clips vary in length from 1 to 10 seconds and have a total length of approximately 24 hours.
+ [LJ Speech Data](https://keithito.com/LJ-Speech-Dataset/)
 # Working
   * Spectrogram generator that converts raw audio to spectrograms.
   * ASR model that takes the spectrograms as input and outputs a matrix of probabilities over characters over time.The neural network is present in this ASR model.
