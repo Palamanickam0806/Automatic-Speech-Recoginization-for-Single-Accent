@@ -32,7 +32,7 @@ For model file ping me [email](valliaravind@gmail.com)
 
 # Results
   **Character Error Rate (CER)** = 0.065 <br />
-  **Word Error Rate (WER)** = 0.1478
+  **Word Error Rate (WER)** = 0.1478 <br />
   The ```prediction vs reference of test data.csv``` have prediction and references of each test audio file by testing through our ASR model 
 
 # To be Done: 
