@@ -1,5 +1,9 @@
 # Automatic-Speech-Recoginization-for-Single-Accent
 
+# demo
+Run the below command in this directory to print the output.
+ ```python test.py```
+
 # Working
   * Spectrogram generator that converts raw audio to spectrograms.
   * ASR model that takes the spectrograms as input and outputs a matrix of probabilities over characters over time.The neural network is present in this ASR model.
