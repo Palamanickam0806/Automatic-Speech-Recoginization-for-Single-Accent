@@ -2,7 +2,11 @@
 
 # demo
 Run the below command in this directory to print the output. <br />
- ____ ```python test.py```
+ ```python test.py```
+ 
+In ```test.py``` directly change the audio file which exist in test audio folder as this model work fine for similar accent.
+
+For model file ping me [email](valliaravind@gmail.com)
 
 # Working
   * Spectrogram generator that converts raw audio to spectrograms.
