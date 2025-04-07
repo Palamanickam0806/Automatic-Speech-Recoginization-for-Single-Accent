@@ -25,9 +25,9 @@ For model file ping me [email](valliaravind@gmail.com)
   * CTC loss and forced alignment of character with the encoder output.
   * Inference CTC Decoder
   * Statistical Language Model for spelling correction and next word prediction.
-  ## Language Model
-     * It’s a statistical model that is designed to analyze the pattern of human language and predict the likelihood of a sequence of words or tokens.
-     * To tackled spelling errors in predictions  a novel static language model to added at post processing , where the incorrect word is found my check in word dictionary and replaced with best matching and ngram sequence word.
+ ## Language Model
+   * It’s a statistical model that is designed to analyze the pattern of human language and predict the likelihood of a sequence of words or tokens.
+   * To tackled spelling errors in predictions  a novel static language model to added at post processing , where the incorrect word is found my check in word dictionary and      replaced with best matching and ngram sequence word.
 
 
 # Results
