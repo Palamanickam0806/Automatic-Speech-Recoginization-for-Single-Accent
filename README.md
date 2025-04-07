@@ -27,7 +27,7 @@ For model file ping me [email](valliaravind@gmail.com)
   * Statistical Language Model for spelling correction and next word prediction.
  ## Language Model
    * It’s a statistical model that is designed to analyze the pattern of human language and predict the likelihood of a sequence of words or tokens.
-   * To tackled spelling errors in predictions  a novel static language model to added at post processing , where the incorrect word is found my check in word dictionary and      replaced with best matching and ngram sequence word.
+   * To tackled spelling errors in predictions  a novel static language model to added at post processing , where the incorrect word is replaced with best matching and ngram sequence word by checking in arpa file ```3gram.arpa```  
 
 
 # Results
