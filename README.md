@@ -28,4 +28,4 @@ For model file ping me [email](valliaravind@gmail.com)
 
 # Results
   **Character Error Rate (CER)** = 0.065
-  ** Word Error Rate (WER) ** = 0.1478
+  **Word Error Rate (WER)** = 0.1478
