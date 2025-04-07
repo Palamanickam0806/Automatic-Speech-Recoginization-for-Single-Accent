@@ -9,7 +9,7 @@ In ```test.py``` directly change the audio file which exist in test audio folder
 For model file ping me [email](valliaravind@gmail.com)
 
 # Dataset:
- This is a public domain speech dataset consisting of 13,100 short audio clips of a single speaker reading passages from 7 non-fiction books. A transcription is provided for  each clip. Clips vary in length from 1 to 10 seconds and have a total length of approximately 24 hours.
+ This is a public domain speech dataset consisting of 13,100 short audio clips of a single speaker reading passages from 7 non-fiction books. A transcription is provided for  each clip. Clips vary in length from 1 to 10 seconds and have a total length of approximately 24 hours./
  [LJ Speech Data](https://keithito.com/LJ-Speech-Dataset/)
 # Working
   * Spectrogram generator that converts raw audio to spectrograms.
