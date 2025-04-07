@@ -25,12 +25,16 @@ For model file ping me [email](valliaravind@gmail.com)
   * CTC loss and forced alignment of character with the encoder output.
   * Inference CTC Decoder
   * Statistical Language Model for spelling correction and next word prediction.
+  ## Language Model
+     * It’s a statistical model that is designed to analyze the pattern of human language and predict the likelihood of a sequence of words or tokens.
+     * To tackled spelling errors in predictions  a novel static language model to added at post processing , where the incorrect word is found my check in word dictionary          and replaced with best matching and ngram sequence word.
+
 
 # Results
   **Character Error Rate (CER)** = 0.065 <br />
   **Word Error Rate (WER)** = 0.1478
 
-# Future 
+# To be Done: 
   * QUANTIZATION
       Converts high-precision (FP32) weights to lower precision (FP16 or INT8) for smaller memory usage and faster execution. <br />
       Reduces inference latency on hardware like TPUs, edge devices. <br />
