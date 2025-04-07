@@ -27,5 +27,5 @@ For model file ping me [email](valliaravind@gmail.com)
   * Statistical Language Model for spelling correction and next word prediction.
 
 # Results
-  ** Character Error Rate (CER) ** = 0.065
+  **Character Error Rate (CER)** = 0.065
   ** Word Error Rate (WER) ** = 0.1478
