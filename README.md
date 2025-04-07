@@ -26,6 +26,35 @@ For model file ping me [email](valliaravind@gmail.com)
   * Inference CTC Decoder
   * Statistical Language Model for spelling correction and next word prediction.
   * Parameter size of 10M.
+ ============================================================================================================================================
+Layer (type:depth-idx)                   Input Shape               Output Shape              Param #                   Trainable
+============================================================================================================================================
+ASRModel                                 [1, 128, 486]             [1, 120, 28]              --                        True
+├─Sequential: 1-1                        [1, 1, 128, 486]          [1, 64, 128, 486]         --                        True
+│    └─Conv2d: 2-1                       [1, 1, 128, 486]          [1, 32, 128, 486]         320                       True
+│    └─BatchNorm2d: 2-2                  [1, 32, 128, 486]         [1, 32, 128, 486]         64                        True
+│    └─GELU: 2-3                         [1, 32, 128, 486]         [1, 32, 128, 486]         --                        --
+│    └─Conv2d: 2-4                       [1, 32, 128, 486]         [1, 64, 128, 486]         18,496                    True
+│    └─BatchNorm2d: 2-5                  [1, 64, 128, 486]         [1, 64, 128, 486]         128                       True
+│    └─GELU: 2-6                         [1, 64, 128, 486]         [1, 64, 128, 486]         --                        --
+├─Sequential: 1-2                        [1, 8192, 486]            [1, 256, 486]             --                        True
+│    └─Conv1d: 2-7                       [1, 8192, 486]            [1, 256, 486]             6,291,712                 True
+│    └─BatchNorm1d: 2-8                  [1, 256, 486]             [1, 256, 486]             512                       True
+│    └─GELU: 2-9                         [1, 256, 486]             [1, 256, 486]             --                        --
+├─GRU: 1-3                               [120, 256]                [120, 512]                4,337,664                 True
+├─Sequential: 1-4                        [1, 120, 512]             [1, 120, 28]              --                        True
+│    └─LayerNorm: 2-10                   [1, 120, 512]             [1, 120, 512]             1,024                     True
+│    └─Linear: 2-11                      [1, 120, 512]             [1, 120, 256]             131,328                   True
+│    └─GELU: 2-12                        [1, 120, 256]             [1, 120, 256]             --                        --
+│    └─Dropout: 2-13                     [1, 120, 256]             [1, 120, 256]             --                        --
+│    └─Linear: 2-14                      [1, 120, 256]             [1, 120, 28]              7,196                     True
+============================================================================================================================================
+Total params: 10,788,444
+Trainable params: 10,788,444
+...
+Input size (MB): 0.25
+Forward/backward pass size (MB): 98.80
+Params size (MB): 43.15
  ## Language Model
    * It’s a statistical model that is designed to analyze the pattern of human language and predict the likelihood of a sequence of words or tokens.
    * To tackled spelling errors in predictions  a novel static language model to added at post processing , where the incorrect word is replaced with best matching and ngram sequence word by checking in arpa file ```3gram.arpa```  
