@@ -6,7 +6,8 @@ Run the below command in this directory to print the output. <br />
  
 In ```test.py``` directly change the audio file which exist in test audio folder as this model work fine for similar accent.
 
-For model file ping me [email](valliaravind@gmail.com)
+Model download Drive link : [ASR - MODEL](https://drive.google.com/drive/folders/1skKYg9oaCQ0N0T2VXLmV5dS7h7Bu9vMN?usp=sharing)
+Contact : [email](valliaravind@gmail.com)
 
 # Dataset:  
  ### Link : [LJ Speech Data](https://keithito.com/LJ-Speech-Dataset/)  <br />
