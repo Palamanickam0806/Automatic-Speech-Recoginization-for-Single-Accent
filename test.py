@@ -138,7 +138,7 @@ model = ASRModel(input_dim, hidden_dim, output_dim).to(device)
 model.load_state_dict(torch.load("asr_model--3.pth", map_location=device)) # here you can change model file
 model.eval()
 lm, backoff = load_arpa_lm("3gram.arpa")                                               # Load the Language Model file
-AUDIO_FILE_PATH = "LJ001-0075.wav"                                                                             # Upload the audio file
+AUDIO_FILE_PATH = "test audio/LJ001-0075.wav"                                                                             # Upload the audio file
 ############################################################################### ../kenlm/build/
 
 def transcribe(audio_path):
