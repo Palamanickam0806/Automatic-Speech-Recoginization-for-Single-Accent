@@ -75,6 +75,7 @@ Model download Drive link : [ASR - MODEL](https://drive.google.com/drive/folders
       INT8 is ideal for real-time applications, while FP16 balances speed and accuracy.use significantly less energy, which is crucial for battery-powered and IoT devices. 
   * APPROXIMATION
       Reduces redundant computations in convolution layers using techniques like depthwise separable convolutions. <br />
-## Contact : [email](valliaravind@gmail.com)
       Uses simplified activation functions (e.g., replacing expensive functions like exp with piecewise linear approximations
+    
+## Contact : [email](valliaravind@gmail.com)
 
