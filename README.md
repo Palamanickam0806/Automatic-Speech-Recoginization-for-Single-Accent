@@ -7,7 +7,6 @@ Run the below command in this directory to print the output. <br />
 In ```test.py``` directly change the audio file which exist in test audio folder as this model work fine for similar accent.
 
 Model download Drive link : [ASR - MODEL](https://drive.google.com/drive/folders/1skKYg9oaCQ0N0T2VXLmV5dS7h7Bu9vMN?usp=sharing)
-Contact : [email](valliaravind@gmail.com)
 
 # Dataset:  
  ### Link : [LJ Speech Data](https://keithito.com/LJ-Speech-Dataset/)  <br />
@@ -76,5 +75,6 @@ Contact : [email](valliaravind@gmail.com)
       INT8 is ideal for real-time applications, while FP16 balances speed and accuracy.use significantly less energy, which is crucial for battery-powered and IoT devices. 
   * APPROXIMATION
       Reduces redundant computations in convolution layers using techniques like depthwise separable convolutions. <br />
+## Contact : [email](valliaravind@gmail.com)
       Uses simplified activation functions (e.g., replacing expensive functions like exp with piecewise linear approximations
 
